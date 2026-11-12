@@ -1,0 +1,22 @@
+p {
+    font-family: Arial;
+}
+
+.card {
+    background-color: black;
+    width: 380px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.title {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.description  {
+    color: rgb(160, 160, 160);
+    /* width: 380px; */
+}  
