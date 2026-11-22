@@ -1,0 +1,48 @@
+p {
+    margin: 0px;
+    font-family: Arial;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 14px;
+}
+
+.dog-picture {
+    width: 60px;
+    height: 60px;
+    border-radius: 40px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.info {
+    width: 200px;
+    margin-left: 15px;
+}
+
+.name {
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.handle,
+.category {
+    margin-bottom: 4px;
+    color: rgba(150, 150, 150);
+}
+
+.follow-button {
+    font-size: 16px;
+    background-color: rgb(29, 155, 240);
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 14px;
+    padding-right: 14px;
+    border-radius: 4px;
+}
